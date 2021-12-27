@@ -1,0 +1,19 @@
+local Char = game:GetService("Players").LocalPlayer.Character
+game.Players.LocalPlayer.Backpack["Super Nova"].Parent = Char
+wait(1)
+Char["Super Nova"]:Activate()
+wait(1) 
+Char["Super Nova"]:Deactivate()
+wait(0.4)
+Char["Super Nova"]:Activate()
+Char["Super Nova"].Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack["Deadly Dance"].Parent = Char
+wait(1)
+Char["Deadly Dance"]:Activate()
+Char["Deadly Dance"]:Deactivate()
+Char["Deadly Dance"].Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack["TS Molotov"].Parent = Char
+wait(1)
+Char["TS Molotov"]:Activate()
+Char["TS Molotov"]:Deactivate()
+Char["TS Molotov"].Parent = game.Players.LocalPlayer.Backpack
